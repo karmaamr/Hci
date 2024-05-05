@@ -1,0 +1,31 @@
+<nav class="navbar bg-light" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" id="logo">2ndHand</a>
+    <div class="admin-links-container">
+      <form class="d-flex" role="search" id="search-area">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline" id="search-button" type="submit">Search</button>
+      </form>
+    </div>
+    <div>
+      <a routerLink="Dashboard">Dashboard</a>
+    <button class="btn btn-outline" id="message-button" type="button" onclick="location.href='/messages'">
+      <img src="../../assets/speech-bubble.png" id="message" alt="Message Icon"> <!-- Replace "message.png" with your message icon image -->
+
+  </button>
+    <button class="btn btn-outline" id="notification-button" type="button" onclick="location.href='/notifications'">
+      <img id="notification" src="../../assets/alarm.png" alt="Notification Icon"> <!-- Replace "notification-icon.png" with your notification icon image -->
+  </button>
+    
+  <button class="btn btn-outline" id="favorites-button" type="button" onclick="location.href='/favorites'">
+    <img  routerLink="favorites" id="favorites" src="../../assets/Heart.png" alt="Favorites Icon"> 
+    </button>
+  
+    <button class="btn btn-outline" id="account-button" type="button" onclick="location.href='/account'">
+      <img src="../../assets/user-male-circle.png" id="account" alt="Account Icon"> <!-- Replace "account.png" with your account icon image -->
+  </button>
+
+  <button class="btn btn-outline" id="sell-button" type="submit">Sell</button>
+  </div>
+  </div>
+</nav>

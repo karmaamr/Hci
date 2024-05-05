@@ -1,0 +1,60 @@
+#navbar{
+    display: flex;
+    justify-content: space-between; /* Aligns items with space between them */
+    align-items:center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+   
+}
+#search-button{
+    background-color: #055989;
+    border-color: #055989;
+    color: white;
+    background-color: #055989;
+    border-color: #055989;
+    color: white;
+}
+#sell-button{
+    background-color: #055989;
+    border-color: #055989;
+    color: white;
+    width: 65px;
+    height: 35px;
+    align-items: center;
+}
+.admin-links-container{
+    display: flex;
+    justify-content: space-between; /* Aligns items with space between them */
+    align-items:center;
+}
+.nav-link{
+    color: #055989;
+    font-size: 20px;
+    font-weight: 400;
+}
+#sell-button{
+    background-color: #055989;
+    border-color: #055989;
+    color: white;
+    width: 65px;
+    height: 35px;
+    align-items: center;
+}
+#notification{
+
+width: 37px;
+height: 37px;
+}
+#message{
+    width: 37px;
+    height: 37px;
+}
+#account{
+    width: 37px;
+    height: 37px;
+}
+#logo{
+   font-weight: bold;
+   font-size: 37px;
+    color:#055989;
+}
